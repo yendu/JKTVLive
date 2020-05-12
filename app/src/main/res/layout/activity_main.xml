@@ -13,5 +13,18 @@
        android:keepScreenOn="true"
 
        />
+   <WebView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/webView"
+       android:visibility="gone"
+
+       />
+   <FrameLayout
+       android:id="@+id/customViewContainer"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:visibility="gone"
+       />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
