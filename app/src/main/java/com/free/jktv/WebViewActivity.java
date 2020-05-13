@@ -1,4 +1,4 @@
-package free.kashmir.jktvlive;
+package com.free.jktv;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +23,7 @@ public class WebViewActivity extends AppCompatActivity {
         videoWebview = findViewById(R.id.webView);
 
         if(savedInstanceState==null){
+            
             videoWebview.getWebView().loadUrl("https://jktv.live/");
 
             videoWebview.setFullScreenView(getSupportActionBar(), (FrameLayout) findViewById(R.id.fullscreen_view));

@@ -1,4 +1,4 @@
-package free.kashmir.jktvlive;
+package com.free.jktv;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

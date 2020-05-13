@@ -1,4 +1,4 @@
-package free.kashmir.jktvlive;
+package com.free.jktv;
 
 import android.content.Context;
 
